@@ -8,7 +8,7 @@
  */
 let kaisi = () => {
 	// アプリのタイトルを設定する
-	ars.taitoru('診断アプリのタイトル');
+	ars.taitoru('職業診断');
 
 	// 質問1を表示する
 	miseruQ1();
@@ -25,16 +25,15 @@ let miseruQ1 = () => {
 	let q = new Situmon(1);
 
 	// 質問文
-	q.bun('問題文の表示');
+	q.bun('あなたは何が得意ですか');
 
 	// 選択肢が文章の場合はt, 画像の場合はiをセット
 	q.syurui('t');
 
 	// 選択肢を追加していく
-	q.sentakusi('選択肢1');
-	q.sentakusi('選択肢2');
-	q.sentakusi('選択肢3');
-	q.sentakusi('選択肢4');
+	q.sentakusi('絵が得意');
+	q.sentakusi('pcを打つのが得意');
+	q.sentakusi('教えるのが得');
 
 };
 

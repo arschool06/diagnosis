@@ -31,22 +31,22 @@ let miseruKekka = (kekka) => {
 
 	//結果が1だった場合
 	if(kekka == 1){
-		midasi = '診断結果1の見出し';
-		gazo = 'img/sample/r1.jpg';
-		setumei = '診断結果1の説明文がここに入ります';
+		midasi = '画家';
+		gazo = 'e.png';
+		setumei = 'みんなを驚かそう';
 
 	}
 	//結果が2だった場合
 	else if(kekka == 2){
-		midasi = '診断結果2の見出し';
-		gazo = 'img/sample/r2.jpg';
-		setumei = '診断結果2の説明文がここに入ります';
+		midasi = '先生';
+		gazo = 's.png';
+		setumei = '優しい先生を目指そう';
 	}
 	//結果が3だった場合
 	else if(kekka == 3){
-		midasi = '診断結果3の見出し';
-		gazo = 'img/sample/r3.jpg';
-		setumei = '診断結果3の説明文がここに入ります';
+		midasi = '会社員';
+		gazo = 'kaisya.png';
+		setumei = '社長を目指そう';
 	}
 	//結果が4だった場合
 	else if(kekka == 4){
